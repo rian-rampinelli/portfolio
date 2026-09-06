@@ -1,0 +1,112 @@
+.wrapper {
+   background-color: #191929;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: grey;
+  width: 1200px;
+  min-height: 100vh;
+   background-color: #191929;
+      
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191929;
+    padding: 32px 40px;
+    border-bottom-color: #b57bda;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+   
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.banner{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.text-banner{
+    width: 600px;
+}
+.tecnologias{
+     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.tecnologias-itens{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top:50px;
+}
+
+.tecnologias-card{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #212121;
+}
+
+.projetos{
+     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.projetos-itens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projetos-itens-card{
+    width: 300px;
+}
+
+.contatos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.contatos-itens{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contatos-itens-card{
+     border-radius: 30px;
+    padding: 30px;
+    background-color: #191929;
+}
+
