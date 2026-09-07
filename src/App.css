@@ -1,59 +1,78 @@
 .wrapper {
-   background-color: #191929;
+   background-color: #1e1f21;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
 }
 
+
 .container {
-  background-color: grey;
-  width: 1200px;
+    margin: auto;
+  max-width:  1200px;
   min-height: 100vh;
-   background-color: #191929;
+  background-color: #1e1f21;
+
       
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: #191929;
-    padding: 32px 40px;
-    border-bottom-color: #b57bda;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-   
+    background-color: #0f0f0f;
+    padding: 32px 64px;
+}
+
+.header-name{
+    color: #8355e5;
+    font-size: 38px;
+}
+
+.sobrenome{
+    color: #8355e5;
+}
+
+.header-title{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .nav-links{
     display: flex;
     justify-content: space-around;
-    gap: 16px;
+    gap: 20px;
     list-style-type: none;
+    font-size: 16px;
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 
 .banner{
-    margin-top: 100px;
+    margin-top: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+   
 }
 
 .text-banner{
-    width: 600px;
+  
+    width: 700px;
+    font-size: 18px;
+    text-align: center;
 }
 .tecnologias{
-     margin-top: 100px;
+    margin-top: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
 
 }
 
@@ -62,27 +81,29 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top:50px;
+    
 }
 
-.tecnologias-card{
+.tecnologias-itens-card{
     border-radius: 30px;
-    padding: 30px;
-    background-color: #212121;
+    padding: 30px 40px;
+    background-color: #14101f;
+    text-align: center;
 }
 
 .projetos{
-     margin-top: 100px;
+     margin-top: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+  
 }
 
 .projetos-itens{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .projetos-itens-card{
@@ -90,11 +111,11 @@
 }
 
 .contatos{
-    margin-top: 100px;
+    margin-top: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 }
 
 .contatos-itens{
@@ -105,8 +126,8 @@
 }
 
 .contatos-itens-card{
-     border-radius: 30px;
+      border-radius: 30px;
     padding: 30px;
-    background-color: #191929;
+    background-color: #212121;
 }
 
