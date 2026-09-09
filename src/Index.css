@@ -11,7 +11,19 @@
 }
 
 h2{
-    font-size: 24px;
+    font-size: 30px;
     color:#8355e5 ;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
+}
+
+a{
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 200px;
 }
