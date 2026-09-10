@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f0f0f;
+  padding: 32px 0px;
+  position: sticky;
+  top: 0;
+  z-index:1;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 16px;
+  margin-right: 94px;
+}
+
+.name {
+  margin-left: 94px;
+}
+
+.sobrenome {
+  color: #8355e5;
+}
