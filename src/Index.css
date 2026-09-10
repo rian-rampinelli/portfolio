@@ -3,8 +3,8 @@
 * {
   margin: 0;
   padding: 0;
+   box-sizing: border-box;
   color: white;
-  
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -20,6 +20,10 @@ a{
   text-decoration: none;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,3 +31,4 @@ html {
 section {
   scroll-margin-top: 200px;
 }
+

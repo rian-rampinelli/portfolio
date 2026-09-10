@@ -1,27 +1,81 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #0f0f0f;
   padding: 32px 0px;
   position: sticky;
   top: 0;
-  z-index:1;
+  z-index: 1;
   width: 100%;
+    
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  gap: 20px;
   list-style-type: none;
   font-size: 16px;
   margin-right: 94px;
 }
 
 .name {
+  font-size: 24px;
   margin-left: 94px;
 }
 
 .sobrenome {
   color: #8355e5;
+}
+
+.hamburger {
+  display: none;
+  background-color: #0f0f0f;
+  border: none;
+  cursor: pointer;
+}
+
+.modal .hamburger {
+  background-color: #14101f;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #14101f;
+  padding: 30px;
+}
+
+.nav-links-modal {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    margin-right: 30px;
+  }
+  .nav {
+    justify-content: space-between;
+    padding: 32px 0px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .name {
+    margin-left: 30px;
+    font-size: 20px;
+  }
 }
