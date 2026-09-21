@@ -258,7 +258,7 @@
     text-align: left;
   }
   .projetos-itens{
-    grid-template-columns: 360px;
+    grid-template-columns:  repeat(1,400px);
   }
 }
 

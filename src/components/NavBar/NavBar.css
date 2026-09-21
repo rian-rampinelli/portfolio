@@ -39,6 +39,12 @@
 .modal .hamburger {
   background-color: #14101f;
 }
+.modal .name{
+    margin-left: 0;
+}
+.modal .hamburger{
+    margin-left:40px ;
+}
 
 
 .modal {

@@ -1,9 +1,9 @@
-import "../pages/css/Home.css"
+import "../home/Home.css"
 import { FaJava, FaReact, FaDocker, FaGithub, FaGitAlt, FaNode, FaLinkedin, FaJs } from "react-icons/fa";
 import { SiPostgresql, SiJunit5, SiGmail, SiGitlab, SiVite } from "react-icons/si";
 import { BiLogoSpringBoot } from "react-icons/bi";
-import projeto1 from "../assets/projeto1.png";
-import NavBar from "../components/NavBar/NavBar";
+import projeto1 from "../../assets/projeto1.png";
+import NavBar from "../../components/NavBar/NavBar";
 
 
 function Home() {

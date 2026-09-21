@@ -1,0 +1,34 @@
+.wrapper {
+  background-color: #1e1f21;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-not-found{
+    text-align: center;
+}
+
+.button-voltar{
+
+  padding: 14px 12px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-width:3px ;
+  border: solid;
+  border-radius: 5px;
+  border-color: #8355e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.5s ease;
+  margin-top: 30px;
+}
+
+.button-voltar:hover{
+  background-color: #8355e5;
+}
