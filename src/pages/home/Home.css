@@ -182,6 +182,7 @@
   flex: 1;
 }
 
+
 .card-button{
   width: 120px;
   padding: 14px 12px;
@@ -198,6 +199,10 @@
   gap: 12px;
   transition: transform 0.5s ease;
   margin-top: 30px;
+}
+
+.desenvolvimento{
+  margin-top: 50px;
 }
 
 .card-button:hover{

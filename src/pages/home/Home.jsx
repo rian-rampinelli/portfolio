@@ -103,6 +103,7 @@ function Home() {
                         <h2>Projetos</h2>
                         <div className="projetos-itens">
                             <div className="projetos-card">
+                                
                                 <div className="card-image">
                                     <img src={projeto1} alt="Projeto 1" />
                                     <div className="card-technologies">
@@ -128,7 +129,6 @@ function Home() {
                                         </span>
                                     </div>
                                 </div>
-
                                 <div className="card-content">
                                     <h3>Wiki of Westeros</h3>
                                     <p>
@@ -138,8 +138,52 @@ function Home() {
                                 </div>
 
                             </div>
+                              <div className="projetos-card">
 
+                                <div className="card-image">
+                                    <img src={projeto1} alt="Projeto 1" />
+                                    <div className="card-technologies">
+                                        <span className="technology">
+                                            <FaJava size={32
+                                            } style={{
+                                                color: "red",
+                                                fill: "#8355e5",
+                                            }} />
+                                        </span>
+                                        <span className="technology">
+                                            <BiLogoSpringBoot size={32
+                                            } style={{
+                                                color: "red",
+                                                fill: "#8355e5",
+                                            }} />
+                                        </span>
+                                        <span className="technology">
+                                            <SiPostgresql size={32
+                                            } style={{
+                                                color: "red",
+                                                fill: "#8355e5",
+                                            }} />
+                                        </span>
+                                        <span className="technology">
+                                            <FaReact size={32
+                                            } style={{
+                                                color: "red",
+                                                fill: "#8355e5",
+                                            }} />
+                                        </span>
+                                        
+                                       
+                                    </div>
+                                </div>
+                                <div className="card-content">
+                                    <h3>Autopeças-RD</h3>
+                                    <p>
+                                       Uma Simulação de um ERP real,com back,front e db.
+                                    </p>
+                                   <p className="desenvolvimento">Em Desenvolvimento...</p>
+                                </div>
 
+                            </div>
 
                         </div>
                     </section>
