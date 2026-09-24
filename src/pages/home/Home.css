@@ -10,11 +10,8 @@
   max-width: 1280px;
   min-height: 100vh;
   background-color: #1e1f21;
-  margin-top: 140px;
-  
+  margin-top: 30px;
 }
-
-
 
 #header {
   display: flex;
@@ -26,8 +23,6 @@
   color: #8355e5;
   font-size: 38px;
 }
-
-
 
 .header-title {
   font-size: 30px;
@@ -94,7 +89,7 @@
 
 .projetos-itens {
   display: grid;
-  grid-template-columns: repeat(3,380px);
+  grid-template-columns: repeat(3, 380px);
   gap: 24px;
   margin-top: 30px;
   padding: 28px;
@@ -108,10 +103,9 @@
     transform 0.3s ease,
     box-shadow 0.3s ease;
   text-align: left;
-  
+
   display: flex;
   flex-direction: column;
-
 }
 
 .projetos-card:hover {
@@ -121,14 +115,14 @@
 
 .card-image {
   position: relative;
-  height: 250px;
+  height: 200px;
 }
 
 .card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.5);
+  filter: brightness(0.8);
   transition:
     transform 0.3s ease,
     filter 0.3s ease;
@@ -142,7 +136,6 @@
 .card-technologies {
   position: absolute;
   inset: 0;
-  right: 50;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,14 +175,19 @@
   flex: 1;
 }
 
+.div-paragrafo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.card-button{
+.card-button {
   width: 120px;
   padding: 14px 12px;
   justify-content: center;
   text-align: center;
   color: white;
-  border-width:3px ;
+  border-width: 3px;
   border: solid;
   border-radius: 5px;
   border-color: #8355e5;
@@ -201,11 +199,16 @@
   margin-top: 30px;
 }
 
-.desenvolvimento{
-  margin-top: 50px;
+.github-icon {
+  fill: white;
+  transition: fill 0.2s ease;
 }
 
-.card-button:hover{
+.github-icon:hover {
+  fill: #8355e5;
+}
+
+.card-button:hover {
   background-color: #8355e5;
 }
 
@@ -247,12 +250,11 @@
 
 .contatos-itens-card:hover {
   transform: scale(1.1);
-
 }
 
 @media screen and (max-width: 1300px) {
-  .projetos-itens{
-    grid-template-columns: repeat(2,360px);
+  .projetos-itens {
+    grid-template-columns: repeat(2, 360px);
   }
 }
 
@@ -262,9 +264,7 @@
     font-size: 20px;
     text-align: left;
   }
-  .projetos-itens{
-    grid-template-columns:  repeat(1,400px);
+  .projetos-itens {
+    grid-template-columns: repeat(1, 400px);
   }
 }
-
-
