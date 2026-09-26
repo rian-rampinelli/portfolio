@@ -51,7 +51,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
+  width: min(310px, 100vw);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -83,5 +83,41 @@
   .name {
     margin-left: 30px;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    padding: 20px 16px;
+  }
+
+  .name {
+    margin-left: 0;
+    font-size: clamp(16px, 5vw, 20px);
+  }
+
+  .hamburger {
+    margin: 0;
+    padding: 0;
+    flex: 0 0 auto;
+  }
+
+  .hamburger svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+
+  .modal > div:first-child {
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .modal .hamburger {
+    margin: 0;
   }
 }
